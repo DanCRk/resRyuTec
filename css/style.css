@@ -76,6 +76,18 @@ body {
 .flex_nav{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flex_nav p{
+    font-size: 0px;
+}
+
+@media (min-width: 768px) {
+     .flex_nav{
+         flex-direction: row;
+     }
 }
 
 .flex_enlaces{
@@ -92,10 +104,12 @@ body {
     transition: 0.3s all ease-in-out;
 }
 
-.contenedor p{
-    padding: 2rem;
-    font-size: 2rem;
-    color: var(--oscuro);
+@media (min-width: 768px) {
+     .contenedor p {
+         padding: 2rem;
+         font-size: 2rem;
+         color: var(--oscuro);
+     }
 }
 
 .contenedor a:hover{
@@ -117,9 +131,33 @@ body {
     width: 100%;
 
 }
-.header h2{
+
+.header h2 {
+    font-size: 3.1rem;
+    line-height: 7rem;
+    letter-spacing: 0.6rem;
+    margin: 0 0 0rem 0;
+    max-width: 75rem;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+@media (min-width: 480px) {
+    .header h2 {
+        font-size: 6.5rem;
+        line-height: 13.4rem;
+        letter-spacing: 0.6rem;
+        margin: 0 0 3rem 0;
+        max-width: 75rem;
+        width: 100%;
+        text-transform: uppercase;
+    }  
+}
+
+@media (min-width: 780px) {
+.header h2 {
     font-size: 11rem;
-    
+
     line-height: 13.4rem;
     letter-spacing: 0.6rem;
     margin: 0 0 3rem 0;
@@ -127,6 +165,8 @@ body {
     width: 100%;
     text-transform: uppercase;
 }
+}
+
 
 .header p{
     font-size: 1rem;

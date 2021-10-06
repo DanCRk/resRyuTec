@@ -142,7 +142,7 @@ body {
     text-transform: uppercase;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 500px) {
     .header h2 {
         font-size: 6.5rem;
         line-height: 13.4rem;
@@ -154,10 +154,9 @@ body {
     }  
 }
 
-@media (min-width: 780px) {
+@media (min-width: 768px) {
 .header h2 {
-    font-size: 11rem;
-
+    font-size: 10rem;
     line-height: 13.4rem;
     letter-spacing: 0.6rem;
     margin: 0 0 3rem 0;

@@ -336,6 +336,7 @@ body {
      .card .focus-content {
          display: block;
          padding: 8px 12px;
+         margin-left: 0;
      }
 }
 

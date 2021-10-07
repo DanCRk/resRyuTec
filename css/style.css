@@ -255,6 +255,15 @@ body {
 
 /* LO MEJOR */  
 
+.card h3 {
+    margin: 0;
+    padding: 12px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
 .card {
     width: 400px;
     height: 300px;
@@ -307,17 +316,27 @@ body {
     display: block;
 }
 
-.card h3 {
-    margin: 0;
-    padding: 12px 12px 48px;
-    line-height: 32px;
-    font-weight: 500;
-    font-size: 20px;
+@media (min-width: 400px) {
+     .card h3 {
+         margin: 0;
+         padding: 12px 12px 48px;
+         line-height: 32px;
+         font-weight: 500;
+         font-size: 20px;
+     }
 }
 
 .card .focus-content {
     display: block;
     padding: 8px 12px;
+    margin-left: 1rem;
+}
+
+@media (min-width: 400px) {
+     .card .focus-content {
+         display: block;
+         padding: 8px 12px;
+     }
 }
 
 .card p {

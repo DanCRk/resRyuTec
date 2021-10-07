@@ -68,7 +68,11 @@ body {
 }
 
 .fondogris{
-    background-color: #f5f5f5;
+    background-color: #dadada;
+}
+
+.mayus{
+    text-transform: uppercase;
 }
 
 /* ESTILOS MENU */
@@ -398,6 +402,12 @@ body {
     text-transform: uppercase;
 }
 
+@media (max-width: 480px) {
+     .propietario h2{
+         margin-top: 3rem;
+     }
+}
+
 .propietario small{
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -436,4 +446,65 @@ body {
     width: 355px;
     height: 700px;
     margin-top: -5rem;
+}
+
+/* PROMO */
+
+.promo-texto p{
+    max-width: 54rem;
+    width: 100%;
+        font-size: 1.5rem;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        margin: 0;
+        margin-bottom: 1.5rem;
+}
+
+.promo-texto h2{
+    margin-bottom: 1rem;
+    max-width: 75rem;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    letter-spacing: 0.04rem;
+    margin-top: 3rem;
+}
+
+.promo-grid{
+    background-color: #f3f3f3;
+}
+
+.boton-promo{
+    font-weight: 700px;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    letter-spacing: 00.04rem;
+    transition: all 0.3s;
+    border: 00.5rem;
+    margin-top: rem;
+}
+
+.boton-promo:hover{
+    background: rgb(204, 204, 204);
+    color: var(--oscuro);
+}
+
+.promo-texto{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.promo-imagen{
+    height: 23rem;
+    padding: 0;
+    width: 100%;
+    background: url(https://www.seekpng.com/png/detail/124-1249447_imagenhome-platillos-de-comida-png.png) center center no-repeat;
+    background-size: cover;
 }

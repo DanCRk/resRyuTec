@@ -363,12 +363,23 @@ body {
 
 /* PROPIETARIO */
 
-.propietario-marco{
+.propietario-marco {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     box-sizing: border-box;
     margin: 0 0.5rem;
     align-items: center;
+}
+
+@media (min-width: 768px) {
+     .propietario-marco {
+         flex-direction: row;
+         justify-content: center;
+         box-sizing: border-box;
+         margin: 0 0.5rem;
+         align-items: center;
+     }
 }
 
 .propietario{

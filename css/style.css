@@ -528,3 +528,90 @@ body {
     background: url(https://www.seekpng.com/png/detail/124-1249447_imagenhome-platillos-de-comida-png.png) center center no-repeat;
     background-size: cover;
 }
+
+/* UNETE */
+
+@media (min-width: 768px) {
+     .unete-grid{
+         display:flex;
+         justify-content: center;
+         align-items: center;
+         height: 42rem;
+     }
+     .unete-imagen{
+        height: 100%;
+     }
+}
+
+@media (max-width: 767px) {
+     .unete-imagen{
+         height: 23rem;
+     }
+     .unete-grid{
+         height: 66rem;
+     }
+}
+
+.unete-imagen {
+    padding: 0;
+    width: 100%;
+    
+    background: url(https://www.pngitem.com/pimgs/m/300-3008943_ensalada-de-tomates-platillo-los-danzantes-oaxaca-caprese.png) center center no-repeat;
+    background-size: cover;
+}
+
+.unete-grid{
+    
+    background-color: #f7f7f7;
+}
+
+.promo-texto span{
+    color: rgb(170, 72, 72);
+}
+
+
+/* FOOTER */
+
+.futer{
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.futer-ryutec{
+    width: 100%;
+    margin-top: 3rem;
+    
+}
+
+.futer-ryutec h2 {
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+.futer-ryutec img{
+    height: 10rem;
+}
+
+.futer h3 {
+    line-height: 5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.futer h4{
+    line-height: 3rem;
+    font-weight: normal;
+}
+
+@media (min-width: 768px) {
+     .futer-ryutec{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+     }
+}

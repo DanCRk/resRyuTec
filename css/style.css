@@ -548,7 +548,7 @@ body {
          height: 23rem;
      }
      .unete-grid{
-         height: 66rem;
+         height: max-content;
      }
 }
 
@@ -582,9 +582,12 @@ body {
 }
 
 .futer-ryutec{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     margin-top: 3rem;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .futer-ryutec h2 {

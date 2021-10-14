@@ -618,3 +618,66 @@ body {
          align-items: center;
      }
 }
+
+/* RESERVACIONES */
+
+.horarios{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
+.horarios-art{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.horarios-art h2{
+    font-size: 3.6rem;
+    line-height: 4.4rem;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.horarios-caja{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px 0;
+}
+
+.horarios-caja p{
+    margin: 0 auto 30px;
+    max-width: 380px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.horas{
+        max-width: 255px;
+        margin: 0 auto;
+        padding: 100px 0;
+}
+
+.horas strong{
+    padding-bottom: 1rem;
+}
+
+.horas ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+}
+
+.horas li{
+        font-size: 1.5rem;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+}
+

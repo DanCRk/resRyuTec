@@ -18,6 +18,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body {
     font-size: 16px; /* 1 rem equivale a 10px*/
@@ -141,18 +142,16 @@ body {
     line-height: 7rem;
     letter-spacing: 0.6rem;
     margin: 0 0 0rem 0;
-    max-width: 75rem;
     width: 100%;
     text-transform: uppercase;
 }
 
 @media (min-width: 500px) {
     .header h2 {
-        font-size: 6.5rem;
+        font-size: 5rem;
         line-height: 13.4rem;
         letter-spacing: 0.6rem;
         margin: 0 0 3rem 0;
-        max-width: 75rem;
         width: 100%;
         text-transform: uppercase;
     }  
@@ -164,7 +163,6 @@ body {
     line-height: 13.4rem;
     letter-spacing: 0.6rem;
     margin: 0 0 3rem 0;
-    max-width: 75rem;
     width: 100%;
     text-transform: uppercase;
 }
@@ -621,6 +619,12 @@ body {
 
 /* RESERVACIONES */
 
+@media (min-width: 480px) {
+    .reservacion h2{
+        font-size: 6rem;
+    }
+}
+
 .horarios{
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -683,4 +687,76 @@ body {
 
 .bg{
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/15/47/e7/4c/4k-cafe-x2-vibe-bangkok.jpg);
+}
+
+/* SERVICIOS */
+
+.bg1 {
+    background-image: url(http://viareal.com/images/menus/children/hero.jpg);
+    background-position: center;
+}
+
+.menus{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 540px) {
+    .menus{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        column-gap: 3rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .menus {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3rem;
+    }
+}
+
+.comida-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.comida h1{
+    padding-top: 10rem;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.banner p{
+    max-width: 30rem;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.banner span{
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.2rem;
+    margin-top: 3rem;
 }

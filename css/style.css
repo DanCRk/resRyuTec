@@ -696,9 +696,16 @@ body {
     background-position: center;
 }
 
+section#comida{
+    padding-top: 5rem;
+}
+
+section#bebida{
+    padding-top: 4rem;
+}
+
 .comida-letras{
     text-align: center;
-    margin-top: 8rem;
     font-size: 3.6rem;
     line-height: 4.4rem;
     letter-spacing: 0.04rem;
@@ -751,6 +758,7 @@ body {
     line-height: 4.4rem;
     letter-spacing: 0.2rem;
     margin-bottom: 1rem;
+    padding-top: 3rem;
 }
 
 .banner p{
